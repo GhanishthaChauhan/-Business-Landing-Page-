@@ -1,0 +1,69 @@
+body{
+    background-image:url(./BABA\ PC.jpg);
+}
+div p{
+    display:block;
+    color:black;
+    font-weight: 900;
+    font-size:30px;
+    text-align:center;
+    padding:0px;
+    position:fixed;
+    
+   
+}
+.baba{
+    background-color: antiquewhite;
+}
+span{
+    display: block;
+    font-weight:900px;
+    font-size:50px;
+    color:black;
+    text-align: center;
+    font-family: "https://fonts.google.com/specimen/Noto+Serif",sans-serif;
+}
+img{
+    /* margin:0px; */
+    height:100px;
+    width:100px;
+    /* float:left; */
+    position:absolute;
+    top:20px;
+    border:0.2px solid black;
+}
+.contactus{
+    position:absolute;
+    left:750px;
+    top:120px;
+   
+}
+.aboutus{
+    position:absolute;
+    top:120px;
+    left:450px;
+    font-size:60px;
+
+}
+ a:link{
+    background-color: rgb(231, 206, 172);
+    color:red;
+   /* border:2 px solid black; */
+    /* unvisited links */
+    padding: 5px 5px;
+  text-align: center;
+  text-decoration: underline;
+  display: inline-block;
+} 
+a:visited{
+    color:#C40C0C;
+    /* visited links */
+}
+a:hover{
+    color:#FC4100;
+    /* mouse over link */
+}
+a:active{
+    color:#FC4100;
+    /* selected link*/
+} 
